@@ -11,6 +11,7 @@ import torch
 # sử dụng chuột trái để chấm điểm
 # vẽ xong một khu vực thì bấm chuột phải để hoàn thành
 # dùng phím enter để lưu lại tọa độ và kết thúc vẽ khu vực
+# vẽ sai cần vẽ lại thì bấm phím C để clear
 # code sẽ tự chạy
 # ==================== CONFIGURATION ====================
 OUTPUT_DIR = "output_interactive"
@@ -609,3 +610,4 @@ if __name__ == "__main__":
     print(f"Zones saved to: {zones_file}")
 
     process_video(zones, VIDEO_INPUT)
+
